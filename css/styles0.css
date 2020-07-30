@@ -1,0 +1,497 @@
+
+h1 {
+  margin-bottom: 3rem;
+  font-size: 5rem;
+  font-family: Alegreya SC;
+}
+
+h2 {
+
+  font-size: 3.5rem;
+  font-weight: bold;
+  margin-bottom: 4rem;
+  font-family: Play;
+}
+
+h3 {
+  font-size: 2rem;
+  font-family: Play;
+}
+
+p {
+  color: #8f8f8f;
+  font-size: 1.2rem;
+  padding: 4% 0 0;
+}
+
+.bright {
+  color: #fff;
+}
+
+
+/* Nav Bar */
+
+.nav-size {
+  padding: 3rem 15%;
+}
+
+.navbar a {
+  color: #f5f5f5 !important;
+}
+
+.nav-link {
+  font-size: 1.1rem;
+  margin-left: 1.5rem;
+}
+
+
+/* Background */
+
+.bg-specs {
+  background-image: url("file:///C:/Users/Saltapidas/Desktop/Music%20Production%20Site/images/wp2760119-home-studio-wallpaper%20-%20Copy.jpg");
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  color: #e0dede;
+}
+
+.dropdown-menu a {
+  color: grey !important;
+}
+
+
+/* About Us */
+
+.bg2-specs {
+  background-image: url("file:///C:/Users/Saltapidas/Desktop/Music%20Production%20Site/images/mx1.jpg");
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  color: #e0dede;
+}
+
+.intro {
+  padding: 14% 14.6% 8%;
+}
+
+
+/* Overview*/
+
+#overview {
+  background-color: #e5e5e5;
+  padding: 8% 15% 8%;
+  text-align: left;
+}
+
+.color-class-1 {
+  color: #e0dede;
+}
+
+.color-class-2 {
+  color: #fff;
+  border-width: thick;
+}
+
+.overview-specs {
+  padding-right: 50%;
+}
+
+
+.font-awesome-icon:hover {
+  color: #ff4c68;
+}
+
+.font-awesome-icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.overview-image {
+  height: 38rem;
+  transform: rotateY(180deg);
+  float: right;
+  margin: 0 5% 0;
+}
+
+
+/* Events */
+
+#events {
+  background-color: #393e46;
+  padding: 8% 15% 8%;
+}
+
+#events h2, h3, p {
+  margin-bottom: 0;
+  padding: 1rem 1rem 1rem 0rem;
+}
+
+#events h2 {
+  color: #8f8f8f;
+  font-size: 2.5rem;
+}
+
+#events h3 {
+  color: #c9d6df;
+  font-size: 1.8rem;
+}
+
+.img-fluid {
+  margin: 1.6rem 15rem 8rem 0;
+  border-radius: 10px;
+  width: 26rem;
+  height: 18rem;
+  object-fit: cover;
+  float: left;
+}
+
+.clear-float {
+  clear: both;
+}
+
+
+.row .img-position-right {
+  object-position: right top;
+}
+
+
+/* About Us */
+
+.bg1-specs {
+  text-align: center;
+  background-image: url("file:///C:/Users/Saltapidas/Desktop/Music%20Production%20Site/images/wp2731196-studio-mixer-wallpaper.jpg");
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  padding: 6% 0;
+  color: #e0dede;
+}
+
+
+/* Contribution */
+
+.img-contribution {
+  margin-left: 1%;
+  margin-top: 8%;
+  border-radius: 10px;
+  width: 23rem;
+  height: 23rem;
+  object-fit: cover;
+}
+
+#contribution {
+  padding: 8% 13% 5%;
+  text-align: center;
+}
+
+#contribution h2 {
+  margin-bottom: 3rem;
+  color: #393e46;
+}
+
+#contribution h3 {
+  margin-left: .5rem;
+  margin-top: 1rem;
+  padding-bottom: 0.5rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #393e46;
+}
+
+#contribution p {
+  padding: 1%;
+  padding-top: 0;
+}
+
+
+ /* Contact Details */
+
+ #contact-details .row {
+   background-color: #393e46;
+   text-align: left;
+ }
+
+ #map {
+   height: 40rem;
+   width: 100%;
+ }
+
+ #contact-details .contact-div {
+   padding: 7% 0 5% 10%;
+ }
+
+ #contact-details .social-icon {
+   float: left;
+   padding: 1.2rem 5% 0 1%;
+ }
+
+ #contact-details .social-icon:hover {
+   color: #ff4c68;
+ }
+
+ #contact-details .social-icon-h {
+   padding: 5% 5% 0 1.5%;
+ }
+
+ #contact-details .social-icon-h:hover {
+   color: #ff4c68;
+ }
+
+ #contact-details h2 {
+   margin-bottom: 10%;
+   color: #8f8f8f;
+ }
+
+ #contact-details h3 {
+   margin-left: .5rem;
+   margin-top: 1rem;
+   font-size: 1.5rem;
+ }
+
+ .fa-1x {
+   font-size: 1.4em !important;
+ }
+
+
+ /* Footer */
+
+ #footer {
+   text-align: right;
+   padding: 3rem 14%;
+ }
+
+ #footer p {
+   font-size: 1rem;
+ }
+
+ .brand-icon-footer {
+   float: left;
+ }
+
+
+ /* Laptop Size */
+
+ @media (max-width: 1780px) {
+
+   .img-contribution {
+     width: 21rem;
+     height: 21rem;
+
+   }
+ }
+
+ @media (max-width: 1500px) {
+
+   #events {
+     padding: 8% 15% 8%;
+   }
+
+   .img-fluid {
+     margin: 1rem 12rem 2rem 0;
+     width: 26rem;
+     height: 18rem;
+     object-fit: cover;
+     clear: both;
+   }
+ }
+
+ @media (max-width: 1300px) {
+
+   #events {
+     padding: 8% 15% 8%;
+   }
+
+   .overview-image {
+     margin: 0 5rem 5rem 0;
+   }
+
+   .overview-specs {
+     padding: 0;
+   }
+
+  h1{
+    font-size: 4rem;
+  }
+
+   h2 {
+     padding: 0;
+   }
+
+   .img-fluid {
+     margin: 1rem 8rem 2rem 0;
+   }
+
+   .img-contribution {
+     width: 18rem;
+     height: 18rem;
+   }
+ }
+
+ @media (max-width: 1090px) {
+
+   #overview {
+     padding: 8% 15% 8%;
+   }
+
+   .img-fluid {
+     margin: 1.7rem 5rem 2rem 0;
+   }
+
+   #events {
+     padding: 8% 15% 8%;
+   }
+ }
+
+
+ /* Tablet Size */
+
+ @media (max-width: 988px) {
+
+   h1 {
+     font-size: 3rem;
+     padding: 0;
+   }
+
+   h2 {
+     font-size: 2.1rem;
+     padding: 0;
+
+   }
+
+   h3 {
+     font-size: 1.5rem;
+   }
+
+   .intro {
+     padding: 20% 14.6% 8%;
+   }
+
+   .img-fluid {
+     width: 17rem;
+     height: 12.8rem;
+     margin: 1.5rem 2rem 2rem 0;
+   }
+ }
+
+
+ /* Mobile Size */
+
+ @media (max-width: 766px) {
+
+   .nav-size {
+     padding: 3rem 10%;
+   }
+
+   .brand-img {
+     width: 135px;
+     height: 50px;
+   }
+
+  .overview-image {
+    height: 30rem;
+     margin: 0 .5rem 5rem 0rem;
+   }
+
+   h2 {
+     padding: 0;
+   }
+
+   h3 {
+     padding: 0;
+   }
+
+   p {
+     font-size: 1rem;
+   }
+
+   .intro {
+     padding: 24% 10% 8%;
+   }
+
+   #overview {
+     padding: 8% 10% 8%;
+   }
+
+   .overview-image {
+     margin: 0 5rem 5rem 0;
+   }
+
+   .container-fluid {
+     padding: 0;
+   }
+
+   .overview-specs {
+     padding: 0;
+   }
+
+   #events {
+     padding: 8% 10% 8%;
+   }
+
+   .img-fluid {
+     margin: 2rem 0 1.5rem;
+     width: 95%;
+     height: 20rem;
+     object-fit: cover;
+     clear: both;
+   }
+
+   #contribution {
+     padding: 8% 15% 5%;
+   }
+
+   #contact-details .margin-contact {
+     padding: 0 0 0 19%;
+   }
+
+   #contact-details h2 {
+     font-size: 1.8rem;
+   }
+
+   #map {
+     height: 25rem !important;
+     width: 100%;
+   }
+
+   #contact-details .contact-div {
+     padding: 8% 12% 8%;
+   }
+
+   .fa-2x {
+     font-size: 1.4em !important;
+   }
+
+   #contribution {
+     padding: 8% 13% 5%;
+     text-align: center;
+   }
+
+   #footer {
+     text-align: right;
+     padding: 3rem 10%;
+   }
+
+   #footer p {
+     font-size: .75rem;
+   }
+
+   .brand-icon-footer {
+     margin-right: 10rem;
+     margin-top: .6rem;
+   }
+ }
+
+ @media (max-width: 650px) {
+
+   h1 {
+     font-size: 2.8rem;
+   }
+
+   h2 {
+     font-size: 1.8rem;
+   }
+
+   h3 {
+     font-size: 1.4rem;
+   }
+ }

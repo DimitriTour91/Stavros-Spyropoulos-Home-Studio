@@ -1,0 +1,297 @@
+h1 {
+  margin-bottom: 3rem;
+  font-size: 5rem;
+  font-family: Alegreya SC;
+}
+
+h2 {
+  font-size: 3.5rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-family: Play;
+}
+
+h3 {
+  font-size: 2rem;
+  font-family: Play;
+}
+
+p {
+  color: #8f8f8f;
+  font-size: 1.2rem;
+  text-align: center;
+  padding: 4% 0 0;
+}
+
+.bright {
+  color: #fff;
+}
+
+
+/* Nav Bar */
+
+.nav-size {
+  padding: 3rem 15%;
+}
+
+.navbar a {
+  color: #f5f5f5 !important;
+}
+
+.nav-link {
+  font-size: 1.1rem;
+  margin-left: 1.5rem;
+}
+
+
+/* Background */
+
+.bg-specs {
+  background-image: url("file:///C:/Users/Saltapidas/Desktop/Music%20Production%20Site/images/wp2760119-home-studio-wallpaper%20-%20Copy.jpg");
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  color: #e0dede;
+}
+
+.dropdown-menu a {
+  color: grey !important;
+}
+
+
+/* Title */
+
+#title .intro {
+  padding: 17% 25% 10%;
+}
+
+#title h2, h3 {
+  color: #e0dede;
+}
+
+@media (max-width: 985px) {
+
+  h1 {
+    font-size: 3.5rem;
+    padding: 0 15% 0;
+  }
+
+  h2 {
+    font-size: 2.1rem;
+    padding: 0 15% 0;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+    padding: 0 15% 0;
+  }
+
+  p {
+    padding: 4% 20% 0;
+  }
+
+  #title .intro {
+    padding: 24% 15% 10%;
+  }
+}
+
+@media (max-width: 650px) {
+
+  h1 {
+    font-size: 3.2rem;
+    padding: 0 20% 0;
+  }
+
+  h2 {
+    font-size: 1.8rem;
+    padding: 0 20% 0;
+  }
+
+  h3 {
+    font-size: 1.4rem;
+    padding: 0 20% 0;
+  }
+
+  p {
+    font-size: 1rem;
+    padding: 4% 20% 0;
+  }
+
+  .nav-size {
+    padding: 3rem 10%;
+  }
+
+  .brand-img {
+    width: 135px;
+    height: 50px;
+  }
+
+  #title .intro {
+    padding: 35% 0 10%;
+  }
+}
+
+
+/* Features */
+
+.color-class {
+  color: #393e46;
+}
+
+#features {
+  background-color: #e5e5e5;
+  padding: 8% 6% 0;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 8% 8% 4%;
+}
+
+.font-awesome-icon:hover {
+  color: #ff4c68;
+}
+
+.font-awesome-icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+
+/* Services */
+
+#services {
+  padding: 8% 3% 5%;
+}
+
+#services h2 {
+  margin-bottom: 3rem;
+  color: #393e46;
+}
+
+#services h3 {
+  margin-left: .5rem;
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #393e46;
+}
+
+.img-fluid {
+  margin-left: 1%;
+  margin-top: 8%;
+  border-radius: 30px;
+  width: 350px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.row .img-position-right {
+  object-position: right top;
+}
+
+.service-box {
+  text-align: center;
+}
+
+@media (max-width: 985px) {
+  #features h2 {
+    margin-top: 3rem;
+  }
+
+  #services h2 {
+    margin-top: 1rem;
+  }
+
+  #services h3 {
+    margin-left: .3rem;
+    margin-top: 1rem;
+  }
+
+  .img-fluid {
+    margin-right: 1rem;
+    margin-top: 3.5rem;
+  }
+}
+
+
+/* About Us */
+
+.bg1-specs {
+  background-image: url("file:///C:/Users/Saltapidas/Desktop/Music%20Production%20Site/images/wp2731196-studio-mixer-wallpaper.jpg");
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  padding: 6% 0;
+  color: #e0dede;
+}
+
+
+/* Contribution */
+
+#contribution {
+  padding: 8% 3% 5%;
+}
+
+#contribution h2 {
+  margin-bottom: 3rem;
+  color: #393e46;
+}
+
+#contribution h3 {
+  margin-left: .5rem;
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #393e46;
+}
+
+#contribution p {
+  padding: 1%;
+  padding-top: 0;
+}
+
+
+/* Testimonials */
+
+#testimonials {
+  background-image: url("file:///C:/Users/Saltapidas/Desktop/Music%20Production%20Site/images/bg1.jpg");
+  padding: 8% 3% 5%;
+}
+
+#testimonials p {
+  padding: 0;
+}
+
+.fa-quote-left {
+  padding: 1.5rem;
+}
+
+.img-test {
+  margin: 30px;
+  border-radius: 100%;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+
+/* Footer */
+
+#footer {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+#footer p {
+  font-size: 1rem;
+}
+
+.social-icon {
+  margin: 40px 15px 20px;
+}
+
+.social-icon:hover {
+  color: #ff4c68;
+}

@@ -48,7 +48,7 @@ p {
 /* Background */
 
 .bg-specs {
-  background-image: url("file:///C:/Users/Saltapidas/Desktop/Music%20Production%20Site/images/wp2760119-home-studio-wallpaper%20-%20Copy.jpg");
+  background-image: url("../images/bgimg1.jpg");
   background-position: center center;
   background-attachment: fixed;
   background-size: cover;
@@ -219,7 +219,7 @@ p {
 /* About Us */
 
 .bg1-specs {
-  background-image: url("file:///C:/Users/Saltapidas/Desktop/Music%20Production%20Site/images/wp2731196-studio-mixer-wallpaper.jpg");
+  background-image: url("../images/bgimg2.jpg");
   background-position: center center;
   background-attachment: fixed;
   background-size: cover;
@@ -256,7 +256,7 @@ p {
 /* Testimonials */
 
 #testimonials {
-  background-image: url("file:///C:/Users/Saltapidas/Desktop/Music%20Production%20Site/images/bg1.jpg");
+  background-image: url("../images/bgimg3.jpg");
   padding: 8% 3% 5%;
 }
 

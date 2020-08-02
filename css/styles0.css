@@ -514,7 +514,7 @@ hr {
 
    .brand-icon-footer {
      margin-right: 6rem;
-     margin-top: .6rem;
+     margin-top: 1.2rem;
    }
  }
 
@@ -541,13 +541,18 @@ hr {
    .color-class-1 {
      margin-top: 5rem;
    }
+
+   .brand-img {
+     width: 105px;
+     height: 40px;
+   }
  }
 
 
 @media (max-width: 440px) {
 
  .overview-image {
-   margin: 0 .5rem 5rem 0;
+   margin: 0 .5rem 5rem 15px;
  }
 
  .brand-icon-footer {
@@ -557,5 +562,10 @@ hr {
 
  #footer p {
    font-size: .6rem;
+ }
+
+ .brand-icon-footer {
+   margin-right: 6rem;
+   margin-top: 1rem;
  }
 }

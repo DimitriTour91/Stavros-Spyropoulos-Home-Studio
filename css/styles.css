@@ -99,7 +99,7 @@ p {
 @media (max-width: 650px) {
 
   h1 {
-    font-size: 2.4rem;
+    font-size: 2rem;
     padding: 0 20% 0;
   }
 
@@ -111,6 +111,7 @@ p {
   h3 {
     font-size: 1.2rem;
     padding: 0 20% 0;
+    margin-top: 2rem;
   }
 
   p {
@@ -123,8 +124,12 @@ p {
   }
 
   .brand-img {
-    width: 135px;
-    height: 50px;
+    width: 105px;
+    height: 40px;
+  }
+
+  .btn-lg {
+    font-size: .8rem;
   }
 
   #title .intro {

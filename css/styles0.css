@@ -9,7 +9,7 @@ h2 {
 
   font-size: 3.5rem;
   font-weight: bold;
-  margin-bottom: 4rem;
+  margin-bottom: 2.5rem;
   font-family: Play;
 }
 
@@ -130,17 +130,17 @@ hr {
   padding: 8% 15% 8%;
 }
 
-#events h2, h3, p {
+.c1 h2, h3, p {
   margin-bottom: 0;
   padding: 1rem 1rem 1rem 0rem;
 }
 
-#events h2 {
+.c1 h2 {
   color: #8f8f8f;
   font-size: 2.5rem;
 }
 
-#events h3 {
+.c1 h3 {
   color: #c9d6df;
   font-size: 1.8rem;
 }
@@ -368,7 +368,7 @@ hr {
    }
 
    h3 {
-     font-size: 1.5rem;
+     font-size: 1.3rem;
    }
 
    hr {
@@ -409,7 +409,7 @@ hr {
    }
 
   .overview-image {
-    height: 30rem;
+    height: 24rem;
      margin: 0 .5rem 5rem 0rem;
    }
 
@@ -458,19 +458,23 @@ hr {
    }
 
    #events {
-     padding: 8% 10% 8%;
+     padding: 8% 8% 8% 10%;
    }
 
    .img-fluid {
      margin: 2rem 0 1.5rem;
      width: 95%;
-     height: 20rem;
+     height: 16rem;
      object-fit: cover;
      clear: both;
    }
 
    #contribution {
      padding: 8% 15% 5%;
+   }
+
+   .col-sm{
+     padding: 8% 10%;
    }
 
    #contact-details .margin-contact {
@@ -509,22 +513,22 @@ hr {
    }
 
    .brand-icon-footer {
-     margin-right: 10rem;
+     margin-right: 6rem;
      margin-top: .6rem;
    }
  }
 
  @media (max-width: 650px) {
 
-   h1 {
+   .c1 h1 {
      font-size: 2.8rem;
    }
 
-   h2 {
+   .c1 h2 {
      font-size: 1.8rem;
    }
 
-   h3 {
-     font-size: 1.4rem;
+   .c1 h3 {
+     font-size: 1.3rem;
    }
  }

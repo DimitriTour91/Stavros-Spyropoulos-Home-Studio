@@ -181,7 +181,7 @@ hr {
 
 .img-contribution {
   margin-left: 1%;
-  margin-top: 8%;
+  margin-top: 15%;
   border-radius: 10px;
   width: 23rem;
   height: 23rem;
@@ -528,9 +528,20 @@ hr {
      font-size: 1.8rem;
    }
 
-   h3 {
-     font-size: 1.5rem;
+   #contribution {
+     padding: 8% 13% 12%;
+     text-align: center;
    }
+
+  #contribution h3 {
+     font-size: 1.3rem;
+     margin-top: 0;
+     margin-left: 1rem;
+   }
+
+   #contribution p {
+      margin-left: .2rem;
+    }
 
    hr {
      border-top: 1.5px solid #e0dede;
@@ -553,6 +564,7 @@ hr {
 
  .overview-image {
    margin: 0 .5rem 5rem 15px;
+   padding-left: 10%;
  }
 
  .brand-icon-footer {
@@ -565,7 +577,7 @@ hr {
  }
 
  .brand-icon-footer {
-   margin-right: 6rem;
-   margin-top: 1rem;
+   margin-right: 5rem;
+   margin-top: 1.1rem;
  }
 }

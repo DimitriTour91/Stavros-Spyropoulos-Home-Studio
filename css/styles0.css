@@ -74,12 +74,12 @@ p {
 }
 
 hr {
-    border-radius: 30px;
-    border-top: 5px solid #e0dede;
-    width: 4rem;
-    position: absolute;
-    margin-top: 2.2rem;
-    float: left;
+  border-radius: 30px;
+  border-top: 5px solid #e0dede;
+  width: 4rem;
+  position: absolute;
+  margin-top: 2.2rem;
+  float: left;
 }
 
 .color-class-1 {
@@ -373,8 +373,8 @@ hr {
 
    hr {
      border-top: 2px solid #e0dede;
-     margin-top: 2rem;
-     width: 3.2rem;
+     margin-top: 1.8rem;
+     width: 3rem;
    }
 
    .color-class-1 {
@@ -427,8 +427,8 @@ hr {
 
    hr {
      border-top: 1.5px solid #e0dede;
-     margin-top: 1rem;
-     width: 2.8rem;
+     margin-top: .8rem;
+     width: 2.6rem;
    }
 
    .color-class-1 {
@@ -442,7 +442,7 @@ hr {
    }
 
    #overview {
-     padding: 8% 10% 8%;
+     padding: 8% 8% 8% 10%;
    }
 
    .overview-image {
@@ -520,15 +520,33 @@ hr {
 
  @media (max-width: 650px) {
 
-   .c1 h1 {
-     font-size: 2.8rem;
+   h1 {
+     font-size: 2.2rem;
    }
 
-   .c1 h2 {
+   h2 {
      font-size: 1.8rem;
    }
 
-   .c1 h3 {
-     font-size: 1.3rem;
+   h3 {
+     font-size: 1.5rem;
+   }
+
+   hr {
+     border-top: 1.5px solid #e0dede;
+     margin-top: 7rem;
+     width: 2.6rem;
+   }
+
+   .color-class-1 {
+     margin-top: 6rem;
    }
  }
+
+
+@media (max-width: 440px) {
+
+ .overview-image {
+   margin: 0 0 5rem 0;
+ }
+}

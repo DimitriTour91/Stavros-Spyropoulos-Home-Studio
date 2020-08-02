@@ -413,12 +413,12 @@ hr {
      margin: 0 .5rem 5rem 0rem;
    }
 
-   h2 {
-     padding: 0;
+   .c1 h2 {
+     font-size: 1.8rem;
    }
 
-   h3 {
-     padding: 0;
+   .c1 h3 {
+     font-size: 1.5rem;
    }
 
    p {

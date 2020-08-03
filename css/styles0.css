@@ -465,7 +465,7 @@ hr {
 
    .img-fluid {
      margin: 2rem 0 1.5rem;
-     width: 98%;
+     width: 97%;
      height: 16rem;
      object-fit: cover;
      clear: both;
@@ -531,7 +531,7 @@ hr {
    }
 
    #contribution {
-     padding: 8% 13% 12%;
+     padding: 8% 15% 12% 13% ;
      text-align: center;
    }
 

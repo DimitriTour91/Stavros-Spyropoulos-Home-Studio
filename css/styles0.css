@@ -425,6 +425,7 @@ hr {
 
    p {
      font-size: 1rem;
+     padding-right: 7%;
    }
 
    hr {
@@ -465,7 +466,7 @@ hr {
 
    .img-fluid {
      margin: 2rem 0 1.5rem;
-     width: 97%;
+     width: 96%;
      height: 16rem;
      object-fit: cover;
      clear: both;
@@ -528,6 +529,7 @@ hr {
 
    h2 {
      font-size: 1.5rem;
+     padding-right: 7%;
    }
 
    #contribution {

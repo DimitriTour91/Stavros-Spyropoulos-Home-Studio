@@ -132,7 +132,7 @@ hr {
 
 .c1 h2, h3, p {
   margin-bottom: 0;
-  padding: 1rem 1rem 1rem 0rem;
+  padding: 1rem 0;
 }
 
 .c1 h2 {
@@ -147,7 +147,7 @@ hr {
 
 .img-fluid {
   margin: 1.6rem 15rem 8rem 0;
-  border-radius: 10px;
+  border-radius: 20px;
   width: 26rem;
   height: 18rem;
   object-fit: cover;
@@ -182,14 +182,14 @@ hr {
 .img-contribution {
   margin-left: 1%;
   margin-top: 15%;
-  border-radius: 10px;
+  border-radius: 20px;
   width: 23rem;
   height: 23rem;
   object-fit: cover;
 }
 
 #contribution {
-  padding: 8% 13% 5% 13%;
+  padding: 8% 13% 5%;
   text-align: center;
 }
 
@@ -199,7 +199,6 @@ hr {
 }
 
 #contribution h3 {
-  margin-left: .5rem;
   margin-top: 1rem;
   padding-bottom: 0.5rem;
   font-size: 1.5rem;
@@ -252,7 +251,6 @@ hr {
  }
 
  #contact-details h3 {
-   margin-left: .5rem;
    margin-top: 1rem;
    font-size: 1.5rem;
  }
@@ -266,7 +264,7 @@ hr {
 
  #footer {
    text-align: right;
-   padding: 3rem 14%;
+   padding: 3rem 14% 3rem 14%;
  }
 
  #footer p {
@@ -322,18 +320,18 @@ hr {
     font-size: 4rem;
   }
 
-   h2 {
-     padding: 0;
-   }
+  h2 {
+    padding: 0;
+  }
 
-   .img-fluid {
-     margin: 1rem 8rem 2rem 0;
-   }
+  .img-fluid {
+    margin: 1rem 8rem 2rem 0;
+  }
 
-   .img-contribution {
-     width: 18rem;
-     height: 18rem;
-   }
+  .img-contribution {
+    width: 18rem;
+    height: 18rem;
+  }
  }
 
  @media (max-width: 1090px) {
@@ -414,11 +412,11 @@ hr {
    }
 
    .c1 h2 {
-     font-size: 1.8rem;
+     font-size: 1.5rem;
    }
 
    .c1 h3 {
-     font-size: 1.5rem;
+     font-size: 1.2rem;
    }
 
    p {
@@ -474,7 +472,7 @@ hr {
    }
 
    .col-sm{
-     padding: 8% 10%;
+     padding: 6% 15%;
    }
 
    #contact-details .margin-contact {
@@ -482,7 +480,7 @@ hr {
    }
 
    #contact-details h2 {
-     font-size: 1.8rem;
+     font-size: 1.5rem;
    }
 
    #map {
@@ -525,7 +523,7 @@ hr {
    }
 
    h2 {
-     font-size: 1.8rem;
+     font-size: 1.5rem;
    }
 
    #contribution {
@@ -536,7 +534,6 @@ hr {
    #contribution h3 {
      font-size: 1.3rem;
      margin-top: 0;
-     margin-left: 1rem;
    }
 
    hr {

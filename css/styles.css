@@ -70,32 +70,6 @@ p {
   color: #e0dede;
 }
 
-@media (max-width: 985px) {
-
-  h1 {
-    font-size: 3.5rem;
-    padding: 0 15% 0;
-  }
-
-  h2 {
-    font-size: 2.1rem;
-    padding: 0 15% 0;
-  }
-
-  h3 {
-    font-size: 1.5rem;
-    padding: 0 15% 0;
-  }
-
-  p {
-    padding: 4% 20% 0;
-  }
-
-  #title .intro {
-    padding: 24% 15% 10%;
-  }
-}
-
 
 /* Features */
 
@@ -126,11 +100,11 @@ p {
 /* Services */
 
 #services {
-  padding: 8% 3% 5%;
+  padding: 8% 8% 5%;
 }
 
 #services h2 {
-  margin-bottom: 3rem;
+  margin-bottom: 1.5rem;
   color: #393e46;
 }
 
@@ -143,11 +117,11 @@ p {
 }
 
 .img-fluid {
-  margin-left: 1%;
-  margin-top: 8%;
-  border-radius: 30px;
-  width: 310px;
-  height: 270px;
+  margin-left: 5%;
+  margin-top: 12%;
+  border-radius: 20px;
+  width: 340px;
+  height: 360px;
   object-fit: cover;
 }
 
@@ -157,26 +131,6 @@ p {
 
 .service-box {
   text-align: center;
-}
-
-@media (max-width: 985px) {
-  #features h2 {
-    margin-top: 3rem;
-  }
-
-  #services h2 {
-    margin-top: 1rem;
-  }
-
-  #services h3 {
-    margin-left: .3rem;
-    margin-top: 1rem;
-  }
-
-  .img-fluid {
-    margin-right: 1rem;
-    margin-top: 3.5rem;
-  }
 }
 
 
@@ -195,7 +149,7 @@ p {
 /* Contribution */
 
 #contribution {
-  padding: 8% 3% 5%;
+  padding: 8% 8% 5%;
 }
 
 #contribution h2 {
@@ -260,6 +214,60 @@ p {
   color: #ff4c68;
 }
 
+@media (max-width: 985px) {
+
+  h1 {
+    font-size: 3.5rem;
+    padding: 0 15% 0;
+  }
+
+  h2 {
+    font-size: 2.1rem;
+    padding: 0 15% 0;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+    padding: 0 15% 0;
+  }
+
+  #contribution p {
+    padding: 0 8% 0;
+  }
+
+  #title .intro {
+    padding: 24% 15% 10%;
+  }
+
+  #features h2 {
+    margin-top: 3rem;
+  }
+
+  #services h2 {
+    margin-top: 1rem;
+  }
+
+  #services h3 {
+    margin-left: .3rem;
+    margin-top: 1rem;
+  }
+
+  #contribution {
+    padding: 8% 12% 5%;
+  }
+
+  #services {
+    padding: 8% 12% 5%;
+  }
+
+  .img-fluid {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 3rem;
+    width: 295px;
+    height: 310px;
+  }
+}
 
 @media (max-width: 650px) {
 
@@ -269,19 +277,27 @@ p {
   }
 
   h2 {
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     padding: 0 20% 0;
   }
 
   h3 {
     font-size: 1.2rem;
-    padding: 0 20% 0;
+    padding: 0;
     margin-top: 2rem;
   }
 
   p {
     font-size: 1rem;
-    padding: 4% 20% 0;
+    padding: 1.5rem 12% 0;
+  }
+
+  #services h3 {
+    font-size: 1.3rem;
+  }
+
+  #contribution p {
+    padding: 0 6% 0;
   }
 
   #contribution h3 {
@@ -289,7 +305,19 @@ p {
   }
 
   #contribution {
-    padding: 8% 18% 5%;
+    padding: 8% 10% 5% 12%;
+  }
+
+  #services {
+    padding: 8% 10% 5% 12%;
+  }
+
+  .img-fluid {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 3rem;
+    width: 285px;
+    height: 290px;
   }
 
   .nav-size {

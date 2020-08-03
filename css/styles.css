@@ -1,3 +1,8 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 h1 {
   margin-bottom: 3rem;
   font-size: 5rem;
@@ -305,11 +310,11 @@ p {
   }
 
   #contribution {
-    padding: 8% 10% 5% 8%;
+    padding: 8% 6% 5% 8%;
   }
 
   #services {
-    padding: 8% 10% 5% 8%;
+    padding: 8% 6% 5% 8%;
   }
 
   .img-fluid {

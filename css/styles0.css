@@ -1,3 +1,7 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
 
 h1 {
   margin-bottom: 3rem;
@@ -461,7 +465,7 @@ hr {
 
    .img-fluid {
      margin: 2rem 0 1.5rem;
-     width: 100%;
+     width: 98%;
      height: 16rem;
      object-fit: cover;
      clear: both;

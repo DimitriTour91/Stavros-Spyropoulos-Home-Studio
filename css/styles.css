@@ -302,7 +302,7 @@ p {
   }
 
   #contribution p {
-    padding: 0 6% 0;
+    padding: 0 12% 0;
   }
 
   #contribution h3 {
@@ -310,11 +310,15 @@ p {
   }
 
   #contribution {
-    padding: 8% 16% 5% 8%;
+    padding: 8% 4% 5% 4%;
   }
 
   #services {
-    padding: 8% 16% 5% 8%;
+    padding: 8% 4% 5% 4%;
+  }
+
+  #about-us {
+    padding-right: 1%;
   }
 
   .img-fluid {

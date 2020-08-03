@@ -461,7 +461,7 @@ hr {
 
    .img-fluid {
      margin: 2rem 0 1.5rem;
-     width: 95%;
+     width: 100%;
      height: 16rem;
      object-fit: cover;
      clear: both;
